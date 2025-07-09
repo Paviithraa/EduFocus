@@ -42,7 +42,7 @@ Translation: The recognized gesture is translated into corresponding text or spe
 
 ---
 
-## *Instalation:**
+## **Instalation:**
 
 Install the ESP32S2 board in your Arduino IDE, follow these steps:
 
@@ -56,6 +56,7 @@ Go to File > Preferences.
 In the "Additional Board Manager URLs" field, add the following URL:
 
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
 Click OK to save the changes.
 
 3. Install ESP32 Board
