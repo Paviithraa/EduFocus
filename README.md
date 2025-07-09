@@ -39,3 +39,41 @@ Capture: The camera captures a continuous video feed of the user's hand gestures
 Preprocess: The video frames are processed to isolate the hand and remove the background.
 Recognition: The processed images are fed into a trained machine learning model that classifies the hand gesture.
 Translation: The recognized gesture is translated into corresponding text or speech
+
+---
+
+## *Instalation:**
+
+Install the ESP32S2 board in your Arduino IDE, follow these steps:
+
+Step-by-Step Guide
+1. Open Arduino IDE
+Launch the Arduino IDE on your computer.
+
+2. Add Board Manager URL
+Go to File > Preferences.
+
+In the "Additional Board Manager URLs" field, add the following URL:
+
+https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+Click OK to save the changes.
+
+3. Install ESP32 Board
+Go to Tools > Board > Boards Manager.
+
+Search for "ESP32".
+
+Find the "ESP32 by Espressif Systems" package and click Install.
+
+Wait for the installation to complete.
+
+4. Select ESP32 Board
+Go to Tools > Board and select "ESP32S2" from the list.
+
+5. Install Necessary Libraries
+You may need to install additional libraries depending on your project requirements. For example, if you're using the ESP32 camera, you can install the ESP32 Camera library by going to Sketch > Include Library > Manage Libraries and searching for "ESP32 Camera".
+
+6. Connect Your ESP32S2 Board
+Connect your ESP32S2 board to your computer using a USB cable.
+
+7. Upload Your Sketch
