@@ -1,0 +1,6 @@
+#ifndef EIDSP_IMAGE_H
+#define EIDSP_IMAGE_H
+
+#include "edge-impulse-sdk/dsp/image/processing.hpp"
+
+#endif
